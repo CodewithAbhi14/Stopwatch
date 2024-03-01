@@ -1,0 +1,77 @@
+
+
+body{
+    background: #625f5f;
+}
+
+.header{
+    width: 100%;
+    max-width: 1500px;
+    height: 200px;
+    background:linear-gradient(135deg, blue,pink);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    margin: 100px auto 0px;
+    box-shadow: 0 10px 10px #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-radius: 50px;
+    text-shadow:0 10px 10px #333;;
+
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 900px;
+    height: 500px;
+    background:linear-gradient(135deg, blue,pink);
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0px;
+    box-shadow: 0 10px 10px #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+h1{
+    font-weight: 800;
+    text-shadow:0 10px 10px #333;;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stop, .reset{
+    margin: 0px 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 10px #333;
+    cursor: pointer;
+
+}
+
+.play{
+    margin: 0px 10px;
+    background: orange;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 10px 10px #333;
+}
